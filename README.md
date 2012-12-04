@@ -23,6 +23,7 @@ Mouting
 Backup
 ------
 The best backup solution I've seen so far is combination of rsync and gzip:
+
     rsync -avz --progress --copy-links --keep-dirlinks --exclude-from=logs.exclude.txt /var/log/ /media/hubic.plain/logs
 
     GZIP="--rsyncable" tar zcvf /tmp/files.tgz /home/gabriel/files/
