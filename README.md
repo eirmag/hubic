@@ -18,6 +18,7 @@ Mouting
     Username: {what you get in the html}
     Please enter the password to authenticate user  with server https://yourid.wd.hubic.ovh.net or hit enter for none.
     Password: 
+    $ umount /media/hubic
 
 Backup
 ------
@@ -32,7 +33,7 @@ The rsyncable option of gzip (here used directly within the tar) is really usefu
 Encryption
 ----------
 
-One can use the system to systematically encrypt some part of the remote storage. A convinient solution is to use Encfs. Here are some quick reminder.
+One can use the system to systematically encrypt some part of the remote storage. A convinient solution is to use Encfs. Here are some quick reminders.
 
     $ encfs /media/hubic/remote/private /media/hubic.plain/
     Creating new encrypted volume.
