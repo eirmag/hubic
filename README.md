@@ -1,3 +1,8 @@
+# Warning: DAVFS access has been removed from hubic and this project doesn't work anymore. 
+
+#### There is one working alternative that allows mounting hubic locally: [hubicfuse](https://github.com/TurboGit/hubicfuse). If you're looking for backup solution, consider using [duplicity hubic backend](http://duplicity.nongnu.org/duplicity.1.html).
+
+
 hubic
 =====
 
